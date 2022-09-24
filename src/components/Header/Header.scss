@@ -1,0 +1,25 @@
+
+
+.header{
+    background-color: #006fff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    height: 24px;
+    display: flex;
+    &-logo{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: aliceblue;
+        &-icon{
+            font-size: 1.75rem;
+            margin-right: 1rem;
+        }
+        &-title{
+            font-size: 1.5rem;
+            font-weight: 200;
+        }
+    }
+}
