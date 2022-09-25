@@ -1,0 +1,37 @@
+.login{
+    margin: 1rem ;
+    &-input{
+        margin: 4rem;
+       input{
+           margin-bottom: 0.8rem;
+           width: 20%;
+           background: transparent;
+           border-bottom: 1px solid #2f3336;
+           color: rgba(0, 0, 0, 0.73);
+           padding: 10px 0 15px;
+           text-align: center;
+           &::placeholder {
+               font-size: 1rem;
+               color: rgba(0, 0, 0, 0.46);
+           }
+           &:focus{
+               border-color: #4e555a;
+               &::placeholder {
+                   color: transparent;
+               }
+           }
+       }
+    }
+    button{
+        background-color: #006fff;
+        border: none;
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 100;
+        cursor: pointer;
+        padding: 0.5rem;
+        &:hover{
+            color: black;
+        }
+    }
+}

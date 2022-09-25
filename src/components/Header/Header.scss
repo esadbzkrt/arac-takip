@@ -1,25 +1,53 @@
 
+.header {
+  background-color: #006fff;
+  color: white;
+  padding: 1rem;
+  height: 3rem;
+  display: flex;
 
-.header{
-    background-color: #006fff;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    height: 24px;
+  &-items {
     display: flex;
-    &-logo{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        cursor: pointer;
-        box-shadow: aliceblue;
-        &-icon{
-            font-size: 1.75rem;
-            margin-right: 1rem;
-        }
-        &-title{
-            font-size: 1.5rem;
-            font-weight: 200;
-        }
+    align-items: center;
+    cursor: pointer;
+    flex: 1;
+
+    &-icon {
+      font-size: 1.75rem;
+      margin-right: 2rem;
+      margin-left: 1rem;
+      border-radius: 1rem;
     }
+
+    &-title {
+      border-radius: 8px;
+      font-size: 1.5rem;
+      font-weight: 350;
+      margin-right: 2rem;
+
+      &:hover {
+        color: black;
+      }
+
+    }
+
+    &-space {
+      flex: 1;
+    }
+  }
+
+  button {
+    margin: 1rem;
+    background-color: #006fff;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 100;
+    cursor: pointer;
+    padding: 0.5rem;
+
+    &:hover {
+      color: black;
+    }
+  }
 }
